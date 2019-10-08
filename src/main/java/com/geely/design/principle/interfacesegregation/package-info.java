@@ -1,6 +1,6 @@
 package com.geely.design.principle.interfacesegregation;
 /*
-    接口隔离原则原则
+    接口隔离原则
 
     一、定义
         用多个专门的接口，而不使用单一的总接口，客户端不应该依赖它不使用的接口

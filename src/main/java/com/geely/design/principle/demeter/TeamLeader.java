@@ -4,9 +4,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by geely
+ * 迪米特法则
  */
 public class TeamLeader {
+    /**
+     * 查课程数量
+     */
     public void checkNumberOfCourses(){
         List<Course> courseList = new ArrayList<Course>();
         for(int i = 0 ;i < 20;i++){

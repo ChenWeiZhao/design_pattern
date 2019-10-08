@@ -1,7 +1,7 @@
 package com.geely.design.principle.demeter;
 
 /**
- * Created by geely
+ * 迪米特法则
  */
 public class Course {
 }
