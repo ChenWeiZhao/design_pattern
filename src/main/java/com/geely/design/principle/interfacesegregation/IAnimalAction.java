@@ -1,7 +1,7 @@
 package com.geely.design.principle.interfacesegregation;
 
 /**
- * Created by geely
+ * 接口过多，细化接口
  */
 public interface IAnimalAction {
     void eat();
