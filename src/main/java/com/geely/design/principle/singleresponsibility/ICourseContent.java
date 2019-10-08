@@ -1,7 +1,7 @@
 package com.geely.design.principle.singleresponsibility;
 
 /**
- * Created by geely
+ * 接口单一原则
  */
 public interface ICourseContent {
     String getCourseName();

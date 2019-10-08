@@ -13,7 +13,7 @@ public class Test {
 //        geely.studyFECourse();
 //    }
 
-//v2
+//v2 接口方法注入
 //    public static void main(String[] args) {
 //        Geely geely = new Geely();
 //        geely.studyImoocCourse(new JavaCourse());
@@ -21,7 +21,7 @@ public class Test {
 //        geely.studyImoocCourse(new PythonCourse());
 //    }
 
-    //v3
+    //v3 构造器注入
 //    public static void main(String[] args) {
 //        Geely geely = new Geely(new JavaCourse());
 //        geely.studyImoocCourse();

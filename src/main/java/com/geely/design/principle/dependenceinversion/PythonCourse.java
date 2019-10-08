@@ -1,7 +1,7 @@
 package com.geely.design.principle.dependenceinversion;
 
 /**
- * Created by geely
+ * 依赖倒置原则
  */
 public class PythonCourse implements ICourse {
     @Override

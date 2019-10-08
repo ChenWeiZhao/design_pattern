@@ -1,13 +1,15 @@
 package com.geely.design.principle.dependenceinversion;
 
 /**
- * Created by geely
+ * 依赖倒置原则
  */
 public class Geely {
 
     private ICourse iCourse;
 
-
+    /**
+     * 开放iCourse注入
+     */
     public void setiCourse(ICourse iCourse) {
         this.iCourse = iCourse;
     }
