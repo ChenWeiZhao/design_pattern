@@ -5,21 +5,17 @@ package com.geely.design.principle.dependenceinversion;
  */
 public class Geely {
 
+    private ICourse iCourse;
+
+
     public void setiCourse(ICourse iCourse) {
         this.iCourse = iCourse;
     }
 
-    private ICourse iCourse;
 
-
-
-    public void studyImoocCourse(){
+    public void studyImoocCourse() {
         iCourse.studyCourse();
     }
-
-
-
-
 
 
 }

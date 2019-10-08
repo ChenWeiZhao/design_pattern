@@ -1,7 +1,7 @@
 package com.geely.design.principle.openclose;
 
 /**
- * Created by geely
+ * 开闭原则
  */
 public class Test {
     public static void main(String[] args) {
