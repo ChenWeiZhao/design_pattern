@@ -1,7 +1,7 @@
 package com.geely.design.principle.liskovsubstitution.methodoutput;
 
 /**
- * Created by geely
+ * 里氏替换原则后置条件
  */
 public class Test {
     public static void main(String[] args) {

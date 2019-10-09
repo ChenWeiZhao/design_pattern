@@ -3,7 +3,7 @@ package com.geely.design.principle.liskovsubstitution.methodinput;
 import java.util.Map;
 
 /**
- * Created by geely
+ * 里氏替换原则前置条件
  */
 public class Child extends Base {
 //    @Override
@@ -11,6 +11,9 @@ public class Child extends Base {
 //        System.out.println("子类HashMap入参方法被执行");
 //    }
 
+    /**
+     * interestAnsVo
+     */
     public void method(Map map) {
         System.out.println("子类HashMap入参方法被执行");
     }

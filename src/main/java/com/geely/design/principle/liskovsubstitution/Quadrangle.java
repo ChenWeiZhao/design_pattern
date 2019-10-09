@@ -1,7 +1,7 @@
 package com.geely.design.principle.liskovsubstitution;
 
 /**
- * Created by geely
+ * 里氏替换原则
  */
 public interface Quadrangle {
     long getWidth();
