@@ -1,7 +1,7 @@
 package com.geely.design.principle.compositionaggregation;
 
 /**
- * Created by geely
+ * 合成（组合）/聚合复用原则
  */
 public class MySQLConnection extends DBConnection {
     @Override
