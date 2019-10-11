@@ -2,9 +2,10 @@ package com.geely.design.pattern.creational.abstractfactory;
 
 
 /**
- * Created by geely
+ * 产品等级结构课程工厂
  */
 public interface CourseFactory {
+
     Video getVideo();
     Article getArticle();
 

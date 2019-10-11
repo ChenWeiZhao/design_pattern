@@ -1,7 +1,7 @@
 package com.geely.design.pattern.creational.abstractfactory;
 
 /**
- * Created by geely
+ * JAVA课程产品族：生成同一个产品的工厂
  */
 public class JavaCourseFactory implements CourseFactory {
     @Override

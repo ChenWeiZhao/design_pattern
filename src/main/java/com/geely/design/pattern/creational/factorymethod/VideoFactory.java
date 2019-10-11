@@ -1,7 +1,8 @@
 package com.geely.design.pattern.creational.factorymethod;
 
 /**
- * Created by geely
+ * 抽象方法，在子类中实现
+ * 使用抽象，是因为这个类某些行为属性是已知，即除了抽象方法还有已知实现
  */
 public abstract class VideoFactory {
 

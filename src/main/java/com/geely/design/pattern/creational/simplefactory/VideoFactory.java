@@ -1,10 +1,13 @@
 package com.geely.design.pattern.creational.simplefactory;
 
 /**
- * Created by geely
+ * 简单工厂
  */
 public class VideoFactory {
-    public Video getVideo(Class c){
+    /**
+     *  通过反射，弥补简单工厂的扩展性
+     */
+    public Video getVideo(Class c) {
         Video video = null;
         try {
             video = (Video) Class.forName(c.getName()).newInstance();
@@ -19,13 +22,13 @@ public class VideoFactory {
     }
 
 
-    public Video getVideo(String type){
-        if("java".equalsIgnoreCase(type)){
-            return new JavaVideo();
-        }else if("python".equalsIgnoreCase(type)){
-            return new PythonVideo();
-        }
-        return null;
-    }
+    //public Video getVideo(String type) {
+    //    if ("java".equalsIgnoreCase(type)) {
+    //        return new JavaVideo();
+    //    } else if ("python".equalsIgnoreCase(type)) {
+    //        return new PythonVideo();
+    //    }
+    //    return null;
+    //}
 
 }
