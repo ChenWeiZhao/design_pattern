@@ -19,12 +19,13 @@ public class Test {
         System.out.println(pig1);
         System.out.println(pig2);
 
-//        HungrySingleton hungrySingleton = HungrySingleton.getInstance();
-//        Method method = hungrySingleton.getClass().getDeclaredMethod("clone");
-//        method.setAccessible(true);
-//        HungrySingleton cloneHungrySingleton = (HungrySingleton) method.invoke(hungrySingleton);
-//        System.out.println(hungrySingleton);
-//        System.out.println(cloneHungrySingleton);
+         //克隆破坏单例，所以将return返回改为getInstance()确保单例
+        //HungrySingleton hungrySingleton = HungrySingleton.getInstance();
+        //Method method = hungrySingleton.getClass().getDeclaredMethod("clone");
+        //method.setAccessible(true);
+        //HungrySingleton cloneHungrySingleton = (HungrySingleton) method.invoke(hungrySingleton);
+        //System.out.println(hungrySingleton);
+        //System.out.println(cloneHungrySingleton);
 
 
 

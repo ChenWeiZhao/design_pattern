@@ -1,14 +1,30 @@
 package com.geely.design.pattern.creational.prototype;
 
 /**
- * Created by geely
+ * 实现Cloneable接口，重写克隆方法
  */
-public class Mail implements Cloneable{
+public class Mail implements Cloneable {
     private String name;
     private String emailAddress;
     private String content;
-    public Mail(){
+
+    public Mail() {
         System.out.println("Mail Class Constructor");
+    }
+
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
+        System.out.println("clone mail object");
+        return super.clone();
+    }
+
+    @Override
+    public String toString() {
+        return "Mail{" +
+                "name='" + name + '\'' +
+                ", emailAddress='" + emailAddress + '\'' +
+                ", content='" + content + '\'' +
+                '}' + super.toString();
     }
 
     public String getName() {
@@ -35,18 +51,4 @@ public class Mail implements Cloneable{
         this.content = content;
     }
 
-    @Override
-    public String toString() {
-        return "Mail{" +
-                "name='" + name + '\'' +
-                ", emailAddress='" + emailAddress + '\'' +
-                ", content='" + content + '\'' +
-                '}'+super.toString();
-    }
-
-    @Override
-    protected Object clone() throws CloneNotSupportedException {
-        System.out.println("clone mail object");
-        return super.clone();
-    }
 }

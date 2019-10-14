@@ -36,6 +36,10 @@ public class HungrySingleton implements Serializable,Cloneable{
         return hungrySingleton;
     }
 
+    /**
+     * 克隆会破坏单例
+     * 所以将return返回改为getInstance()确保单例
+     */
     @Override
     protected Object clone() throws CloneNotSupportedException {
         return getInstance();
