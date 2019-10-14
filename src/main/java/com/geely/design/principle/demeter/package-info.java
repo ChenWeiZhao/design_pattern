@@ -1,5 +1,5 @@
 package com.geely.design.principle.demeter;
-/*
+/**
     迪米特法则（最少知道原则）
 
     一、定义

@@ -1,15 +1,22 @@
 package com.geely.design.pattern.creational.singleton;
 
 /**
- * Created by geely
+ * 枚举类防御反射攻击
+ * 在static类加载中初始化实例完成
  */
 public enum EnumInstance {
-    INSTANCE{
-        protected  void printTest(){
+    INSTANCE {
+        @Override
+        protected void printTest() {
             System.out.println("Geely Print Test");
         }
     };
+
+    /**
+     * 声明抽象方法，使得外部能调用到printTest方法
+     */
     protected abstract void printTest();
+
     private Object data;
 
     public Object getData() {
@@ -19,7 +26,8 @@ public enum EnumInstance {
     public void setData(Object data) {
         this.data = data;
     }
-    public static EnumInstance getInstance(){
+
+    public static EnumInstance getInstance() {
         return INSTANCE;
     }
 

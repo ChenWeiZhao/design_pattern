@@ -1,7 +1,7 @@
 package com.geely.design.pattern.creational.builder;
 
 /**
- * Created by geely
+ * 指挥官负责指挥建造者创建
  */
 public class Coach {
     private CourseBuilder courseBuilder;

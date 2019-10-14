@@ -1,7 +1,7 @@
 package com.geely.design.pattern.creational.factorymethod;
 
 /**
- * Created by geely
+ * 产品
  */
 public class FEVideo extends Video{
     @Override

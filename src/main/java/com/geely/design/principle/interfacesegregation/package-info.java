@@ -1,5 +1,5 @@
 package com.geely.design.principle.interfacesegregation;
-/*
+/**
     接口隔离原则
 
     一、定义

@@ -1,22 +1,27 @@
 package com.geely.design.pattern.creational.singleton;
 
 /**
- * Created by geely
+ * 基于ThreadLocal单例模式
+ * 不能保证全局唯一，但是可以保证单个线程下实例唯一
  */
 public class ThreadLocalInstance {
-    private static final ThreadLocal<ThreadLocalInstance> threadLocalInstanceThreadLocal
-             = new ThreadLocal<ThreadLocalInstance>(){
+    private static final ThreadLocal<ThreadLocalInstance> threadLocalInstance
+            = new ThreadLocal<ThreadLocalInstance>() {
+        /**
+         * 匿名类，重写initialValue方法
+         */
         @Override
         protected ThreadLocalInstance initialValue() {
             return new ThreadLocalInstance();
         }
     };
-    private ThreadLocalInstance(){
+
+    private ThreadLocalInstance() {
 
     }
 
-    public static ThreadLocalInstance getInstance(){
-        return threadLocalInstanceThreadLocal.get();
+    public static ThreadLocalInstance getInstance() {
+        return threadLocalInstance.get();
     }
 
 }

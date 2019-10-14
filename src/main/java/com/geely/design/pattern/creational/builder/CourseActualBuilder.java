@@ -1,7 +1,7 @@
 package com.geely.design.pattern.creational.builder;
 
 /**
- * Created by geely
+ * 实际建造者
  */
 public class CourseActualBuilder extends CourseBuilder {
 

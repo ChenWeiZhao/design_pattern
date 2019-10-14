@@ -1,5 +1,5 @@
 package com.geely.design.pattern.creational.factorymethod;
-/*
+/**
     工厂方法
 
     一、定义

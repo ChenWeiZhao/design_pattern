@@ -1,5 +1,5 @@
 package com.geely.design.pattern.creational.abstractfactory;
-/*
+/**
     简单工厂
 
     一、定义

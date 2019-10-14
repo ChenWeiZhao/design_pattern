@@ -1,5 +1,5 @@
 package com.geely.design.principle.singleresponsibility;
-/*
+/**
     单一职责原则
 
     一、定义

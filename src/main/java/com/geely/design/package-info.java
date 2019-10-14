@@ -1,5 +1,5 @@
 package com.geely.design;
-/*
+/**
     方式： 设计模式定义->设计模式应用->源码解析->系统学习设计模式
     安排： UML入门（UML基础、UML类图、UML时序图、UML类关系、UML记忆技巧）
 

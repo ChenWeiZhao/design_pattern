@@ -6,15 +6,17 @@ package com.geely.design.pattern.creational.singleton;
 public class T implements Runnable {
     @Override
     public void run() {
-//        LazySingleton lazySingleton = LazySingleton.getInstance();
-//        LazyDoubleCheckSingleton instance = LazyDoubleCheckSingleton.getInstance();
-//        StaticInnerClassSingleton instance = StaticInnerClassSingleton.getInstance();;
+        LazySingleton lazySingleton = LazySingleton.getInstance();
+        System.out.println(Thread.currentThread().getName() + "  " + lazySingleton);
 
-//        ContainerSingleton.putInstance("object",new Object());
-//        Object instance = ContainerSingleton.getInstance("object");
-        ThreadLocalInstance instance = ThreadLocalInstance.getInstance();
+        //LazyDoubleCheckSingleton instance = LazyDoubleCheckSingleton.getInstance();
+        //StaticInnerClassSingleton instance = StaticInnerClassSingleton.getInstance();;
 
-        System.out.println(Thread.currentThread().getName()+"  "+instance);
+        ContainerSingleton.putInstance("object",new Object());
+        Object instance = ContainerSingleton.getInstance("object");
+
+        ThreadLocalInstance threadInstance = ThreadLocalInstance.getInstance();
+        System.out.println(Thread.currentThread().getName()+"  "+threadInstance);
 
     }
 }

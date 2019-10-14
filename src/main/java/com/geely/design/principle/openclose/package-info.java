@@ -1,5 +1,5 @@
 package com.geely.design.principle.openclose;
-/*
+/**
     开闭原则
 
     一、定义
