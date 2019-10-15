@@ -1,7 +1,7 @@
 package com.geely.design.pattern.structural.adapter;
 
 /**
- * Created by geely
+ * 5V电池
  */
 public interface DC5 {
     int outputDC5V();

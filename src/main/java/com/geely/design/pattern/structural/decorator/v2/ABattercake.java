@@ -1,7 +1,7 @@
 package com.geely.design.pattern.structural.decorator.v2;
 
 /**
- * Created by geely
+ * 被装饰的实体
  */
 public abstract class ABattercake {
     protected abstract String getDesc();

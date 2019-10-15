@@ -1,7 +1,7 @@
 package com.geely.design.pattern.structural.adapter.classadapter;
 
 /**
- * Created by geely
+ * 适配者
  */
 public class Adapter extends Adaptee implements Target{
     @Override

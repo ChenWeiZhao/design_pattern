@@ -1,13 +1,14 @@
 package com.geely.design.pattern.structural.decorator.v1;
 
 /**
- * Created by geely
+ * 煎饼
  */
 public class Battercake {
-    protected String getDesc(){
+    protected String getDesc() {
         return "煎饼";
     }
-    protected int cost(){
+
+    protected int cost() {
         return 8;
     }
 

@@ -1,7 +1,7 @@
 package com.geely.design.pattern.structural.facade;
 
 /**
- * Created by geely
+ * 物流子系统
  */
 public class ShippingService {
     public String shipGift(PointsGift pointsGift){

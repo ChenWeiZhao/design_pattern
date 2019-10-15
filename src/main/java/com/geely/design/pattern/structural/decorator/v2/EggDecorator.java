@@ -4,6 +4,9 @@ package com.geely.design.pattern.structural.decorator.v2;
  * Created by geely
  */
 public class EggDecorator extends AbstractDecorator {
+    /**
+     * 用父类的父类来构造
+     */
     public EggDecorator(ABattercake aBattercake) {
         super(aBattercake);
     }
@@ -15,11 +18,11 @@ public class EggDecorator extends AbstractDecorator {
 
     @Override
     protected String getDesc() {
-        return super.getDesc()+" 加一个鸡蛋";
+        return super.getDesc() + " 加一个鸡蛋";
     }
 
     @Override
     protected int cost() {
-        return super.cost()+1;
+        return super.cost() + 1;
     }
 }

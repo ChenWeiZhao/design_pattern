@@ -1,7 +1,7 @@
 package com.geely.design.pattern.structural.facade;
 
 /**
- * Created by geely
+ * 积分礼物
  */
 public class PointsGift {
     private String name;

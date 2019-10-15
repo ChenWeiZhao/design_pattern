@@ -1,9 +1,12 @@
 package com.geely.design.pattern.structural.adapter.objectadapter;
 
 /**
- * Created by geely
+ * 适配者
  */
 public class Adapter implements Target{
+    /**
+     * 通过组合
+     */
     private Adaptee adaptee = new Adaptee();
 
     @Override

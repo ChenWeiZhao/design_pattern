@@ -1,7 +1,7 @@
 package com.geely.design.pattern.structural.adapter.objectadapter;
 
 /**
- * Created by geely
+ * 对象适配器模式
  */
 public class Test {
     public static void main(String[] args) {
@@ -10,7 +10,6 @@ public class Test {
 
         Target adapterTarget = new Adapter();
         adapterTarget.request();
-
 
 
     }
