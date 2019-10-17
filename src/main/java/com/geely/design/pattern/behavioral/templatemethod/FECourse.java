@@ -5,6 +5,7 @@ package com.geely.design.pattern.behavioral.templatemethod;
  */
 public class FECourse extends ACourse {
     private boolean needWriteArticleFlag = false;
+
     @Override
     void packageCourse() {
         System.out.println("提供课程的前端代码");
@@ -15,6 +16,9 @@ public class FECourse extends ACourse {
         this.needWriteArticleFlag = needWriteArticleFlag;
     }
 
+    /**
+     * needWriteArticleFlag开放给应用层
+     */
     @Override
     protected boolean needWriteArticle() {
         return this.needWriteArticleFlag;
