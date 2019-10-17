@@ -1,7 +1,7 @@
 package com.geely.design.pattern.creational.singleton;
 
 /**
- * 静态内部类单例模式 非构造线程，看不到构造重排序
+ * 静态内部类单例模式 非构造线程，看不到构造重排序的情况：
  * 类被初始化：
  * 1、A类型的实例被创建
  * 2、A类中声明的静态方法被调用

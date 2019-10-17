@@ -1,7 +1,7 @@
 package com.geely.design.pattern.structural.flyweight;
 
 /**
- * Created by geely
+ * 员工做报告
  */
 public interface Employee {
     void report();

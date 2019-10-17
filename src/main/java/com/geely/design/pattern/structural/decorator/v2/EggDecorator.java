@@ -1,7 +1,7 @@
 package com.geely.design.pattern.structural.decorator.v2;
 
 /**
- * Created by geely
+ * 附加方法
  */
 public class EggDecorator extends AbstractDecorator {
     /**
@@ -16,6 +16,9 @@ public class EggDecorator extends AbstractDecorator {
 
     }
 
+    /**
+     * 在继承的基础上添加新的方法
+     */
     @Override
     protected String getDesc() {
         return super.getDesc() + " 加一个鸡蛋";

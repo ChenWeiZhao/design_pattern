@@ -4,6 +4,9 @@ package com.geely.design.pattern.structural.facade;
  * 外观类，礼物兑换服务
  */
 public class GiftExchangeService {
+    /**
+     * 注入
+     */
     private QualifyService qualifyService = new QualifyService();
     private PointsPaymentService pointsPaymentService = new PointsPaymentService();
     private ShippingService shippingService = new ShippingService();

@@ -4,7 +4,7 @@ package com.geely.design.pattern.structural.flyweight;
  * Created by geely
  */
 public class Test {
-    private static final String departments[] = {"RD","QA","PM","BD"};
+    private static final String departments[] = {"RD", "QA", "PM", "BD"};
 
     public static void main(String[] args) {
 //        for(int i=0; i<10; i++){
@@ -19,9 +19,9 @@ public class Test {
         Integer c = Integer.valueOf(1000);
         Integer d = 1000;
 
-        System.out.println("a==b:"+(a==b));
+        System.out.println("a==b:" + (a == b));
 
-        System.out.println("c==d:"+(c==d));
+        System.out.println("c==d:" + (c == d));
 
     }
 }

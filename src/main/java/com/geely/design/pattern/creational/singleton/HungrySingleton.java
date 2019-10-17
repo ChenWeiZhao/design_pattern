@@ -30,7 +30,7 @@ public class HungrySingleton implements Serializable,Cloneable{
      * obj = desc.isInstantiable() ? desc.newIstance() : null
      * desc.isInstantiable() ：返回true
      * desc.newInstance()：利用反射创建对象
-     * 利用反射创建的对象和之前的对象不是一个同一个
+     * 解决利用反射创建的对象和之前的对象不是同一个
      */
     private Object readResolve(){
         return hungrySingleton;

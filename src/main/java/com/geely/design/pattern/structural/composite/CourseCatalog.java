@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by geely
+ * 课程目录类
  */
 public class CourseCatalog extends CatalogComponent {
     private List<CatalogComponent> items = new ArrayList<CatalogComponent>();
@@ -37,6 +37,7 @@ public class CourseCatalog extends CatalogComponent {
         System.out.println(this.name);
         for(CatalogComponent catalogComponent : items){
             if(this.level != null){
+                //根据层级拼接空格
                 for(int  i = 0; i < this.level; i++){
                     System.out.print("  ");
                 }

@@ -14,7 +14,6 @@ public class LazyDoubleCheckSingleton {
     private volatile static LazyDoubleCheckSingleton lazyDoubleCheckSingleton = null;
 
     private LazyDoubleCheckSingleton() {
-
     }
 
     public static LazyDoubleCheckSingleton getInstance() {

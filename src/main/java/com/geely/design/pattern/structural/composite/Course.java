@@ -1,7 +1,7 @@
 package com.geely.design.pattern.structural.composite;
 
 /**
- * Created by geely
+ * 课程类
  */
 public class Course extends CatalogComponent {
     private String name;

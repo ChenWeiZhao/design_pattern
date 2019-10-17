@@ -1,7 +1,7 @@
 package com.geely.design.pattern.structural.decorator.v2;
 
 /**
- * Created by geely
+ * 附加方法
  */
 public class SausageDecorator extends AbstractDecorator {
     public SausageDecorator(ABattercake aBattercake) {
