@@ -10,8 +10,9 @@ import com.geely.design.pattern.structural.proxy.OrderServiceImpl;
 public class Test {
     public static void main(String[] args) {
         Order order = new Order();
-//        order.setUserId(2);
+        //order.setUserId(2);
         order.setUserId(1);
+        //用接口接收
         IOrderService orderServiceDynamicProxy = (IOrderService) new OrderServiceDynamicProxy(new OrderServiceImpl()).bind();
 
         orderServiceDynamicProxy.saveOrder(order);

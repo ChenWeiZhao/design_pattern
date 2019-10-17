@@ -20,7 +20,7 @@ public class Test {
 
         CatalogComponent imoocMainCourseCatalog = new CourseCatalog("慕课网课程主目录", 1);
         /*
-         * 把目录和课程视为一个，减少使用差役，这就是组合模式的核心
+         * 把目录和课程视为一个，减少使用差异，这就是组合模式的核心
          */
         imoocMainCourseCatalog.add(linuxCourse);
         imoocMainCourseCatalog.add(windowsCourse);

@@ -3,14 +3,18 @@ package com.geely.design.pattern.structural.proxy.db;
 import org.springframework.jdbc.datasource.lookup.AbstractRoutingDataSource;
 
 /**
- * Created by geely
+ * 动态数据源
  */
 public class DynamicDataSource extends AbstractRoutingDataSource {
+    /**
+     * 分库
+     * @return 当前线程是哪个db
+     */
     @Override
     protected Object determineCurrentLookupKey() {
+        //放db0或db1
         return DataSourceContextHolder.getDBType();
     }
-
 
 
 //    <bean id="db0" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
@@ -81,10 +85,11 @@ public class DynamicDataSource extends AbstractRoutingDataSource {
 //        <property name="validationQuery" value="SELECT 1 FROM dual"/>
 //    </bean>
 
-
+//AbstractRoutingDataSource
 //	<bean id="dataSource" class="com.geely.design.pattern.structural.proxy.db.DynamicDataSource">
 //		<property name="targetDataSources">
 //			<map key-type="java.lang.String">
+//    key就是DataSourceContextHolder放的dbType
 //				<entry value-ref="db0" key="db0"></entry>
 //				<entry value-ref="db1" key="db1"></entry>
 //			</map>

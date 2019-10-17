@@ -1,7 +1,8 @@
 package com.geely.design.pattern.structural.bridge;
 
 /**
- * Created by geely
+ * 实现层
+ * 活期账号
  */
 public class SavingAccount implements Account {
     @Override

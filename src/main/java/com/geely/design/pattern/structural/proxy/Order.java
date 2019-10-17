@@ -1,10 +1,16 @@
 package com.geely.design.pattern.structural.proxy;
 
 /**
- * Created by geely
+ * 订单实体
  */
 public class Order {
+    /**
+     * 订单数据
+     */
     private Object orderInfo;
+    /**
+     * 订单属于哪个用户
+     */
     private Integer userId;
 
     public Object getOrderInfo() {

@@ -6,10 +6,14 @@ import com.geely.design.pattern.structural.proxy.OrderServiceImpl;
 import com.geely.design.pattern.structural.proxy.db.DataSourceContextHolder;
 
 /**
- * Created by geely
+ * 静态代理
  */
 public class OrderServiceStaticProxy {
+    /**
+     * 注入目标对象
+     */
     private IOrderService iOrderService;
+
 
     public int saveOrder(Order order){
         beforeMethod(order);
