@@ -1,7 +1,7 @@
 package com.geely.design.pattern.behavioral.strategy;
 
 /**
- * Created by geely
+ * 无促销活动
  */
 public class EmptyPromotionStrategy implements PromotionStrategy {
     @Override

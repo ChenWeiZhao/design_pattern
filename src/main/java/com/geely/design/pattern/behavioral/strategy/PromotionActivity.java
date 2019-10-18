@@ -1,7 +1,7 @@
 package com.geely.design.pattern.behavioral.strategy;
 
 /**
- * Created by geely
+ * 促销活动
  */
 public class PromotionActivity {
     private PromotionStrategy promotionStrategy;
@@ -10,6 +10,9 @@ public class PromotionActivity {
         this.promotionStrategy = promotionStrategy;
     }
 
+    /**
+     * 执行促销策略
+     */
     public void executePromotionStrategy(){
         promotionStrategy.doPromotion();
     }

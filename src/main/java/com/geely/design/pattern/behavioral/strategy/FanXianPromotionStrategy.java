@@ -1,7 +1,7 @@
 package com.geely.design.pattern.behavioral.strategy;
 
 /**
- * Created by geely
+ * 返现促销策略
  */
 public class FanXianPromotionStrategy implements PromotionStrategy {
     @Override

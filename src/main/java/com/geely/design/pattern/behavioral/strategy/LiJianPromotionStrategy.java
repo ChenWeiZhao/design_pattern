@@ -1,7 +1,7 @@
 package com.geely.design.pattern.behavioral.strategy;
 
 /**
- * Created by geely
+ * 立减促销策略
  */
 public class LiJianPromotionStrategy implements PromotionStrategy {
     @Override

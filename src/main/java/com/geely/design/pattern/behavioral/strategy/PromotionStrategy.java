@@ -1,8 +1,11 @@
 package com.geely.design.pattern.behavioral.strategy;
 
 /**
- * Created by geely
+ * 促销策略
  */
 public interface PromotionStrategy {
+    /**
+     * 进行促销
+     */
     void doPromotion();
 }
