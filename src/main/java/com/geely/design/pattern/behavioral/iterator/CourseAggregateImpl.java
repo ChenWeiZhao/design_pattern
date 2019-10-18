@@ -4,10 +4,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by geely.
+ * 课程集合实现类
  */
 public class CourseAggregateImpl implements CourseAggregate {
 
+    /**
+     * 课程集合
+     */
     private List courseList;
 
     public CourseAggregateImpl() {

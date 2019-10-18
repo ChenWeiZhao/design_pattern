@@ -14,7 +14,6 @@ public class Test {
         Course course5 = new Course("算法课程");
         Course course6 = new Course("前端课程");
 
-
         CourseAggregate courseAggregate = new CourseAggregateImpl();
 
         courseAggregate.addCourse(course1);

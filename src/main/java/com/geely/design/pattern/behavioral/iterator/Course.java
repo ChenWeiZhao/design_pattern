@@ -1,7 +1,7 @@
 package com.geely.design.pattern.behavioral.iterator;
 
 /**
- * Created by geely.
+ * 课程实体类
  */
 public class Course {
     private String name;
