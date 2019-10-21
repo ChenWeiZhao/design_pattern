@@ -5,6 +5,7 @@ package com.geely.design.pattern.behavioral.interpreter;
  */
 public class Test {
     public static void main(String[] args) {
+        //(11+100)*6=666
         String geelyInputStr="6 100 11 + *";
         GeelyExpressionParser expressionParser=new GeelyExpressionParser();
         int result=expressionParser.parse(geelyInputStr);

@@ -12,6 +12,7 @@ public class GeelyExpressionParser {
         String[] strItemArray = str.split(" ");
         for (String symbol : strItemArray) {
             if (!OperatorUtil.isOperator(symbol)) {
+                //数字解释器入栈
                 Interpreter numberExpression = new NumberInterpreter(symbol);
                 stack.push(numberExpression);
                 System.out.println(String.format("入栈: %d", numberExpression.interpret()));
@@ -19,8 +20,7 @@ public class GeelyExpressionParser {
                 //是运算符号，可以计算
                 Interpreter firstExpression = stack.pop();
                 Interpreter secondExpression = stack.pop();
-                System.out.println(String.format("出栈: %d 和 %d",
-                        firstExpression.interpret(), secondExpression.interpret()));
+                System.out.println(String.format("出栈: %d 和 %d", firstExpression.interpret(), secondExpression.interpret()));
                 Interpreter operator = OperatorUtil.getExpressionObject(firstExpression, secondExpression, symbol);
                 System.out.println(String.format("应用运算符: %s", operator));
                 int result = operator.interpret();

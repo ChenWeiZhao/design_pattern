@@ -1,7 +1,7 @@
 package com.geely.design.pattern.behavioral.command;
 
 /**
- * Created by geely
+ * 命令实现，关闭视频
  */
 public class CloseCourseVideoCommand implements Command {
     private CourseVideo courseVideo;
