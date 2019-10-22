@@ -1,7 +1,7 @@
 package com.geely.design.pattern.behavioral.chainofresponsibility;
 
 /**
- * Created by geely
+ * 课程类
  */
 public class Course {
     private String name;

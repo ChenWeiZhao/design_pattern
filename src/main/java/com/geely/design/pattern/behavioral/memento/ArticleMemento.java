@@ -1,7 +1,7 @@
 package com.geely.design.pattern.behavioral.memento;
 
 /**
- * Created by geely
+ * 手记备忘录类，是手记的快照
  */
 public class ArticleMemento {
     private String title;

@@ -1,7 +1,7 @@
 package com.geely.design.pattern.behavioral.memento;
 
 /**
- * Created by geely
+ * 手记
  */
 public class Article {
 
@@ -13,6 +13,34 @@ public class Article {
         this.title = title;
         this.content = content;
         this.imgs = imgs;
+    }
+
+    /**
+     * 把当前实体转换为备忘录
+     */
+    public ArticleMemento saveToMemento() {
+        return new ArticleMemento(this.title, this.content, this.imgs);
+    }
+
+    /**
+     * 回退操作
+     *
+     * @param articleMemento 备忘录
+     */
+    public void undoFromMemento(ArticleMemento articleMemento) {
+
+        this.title = articleMemento.getTitle();
+        this.content = articleMemento.getContent();
+        this.imgs = articleMemento.getImgs();
+    }
+
+    @Override
+    public String toString() {
+        return "Article{" +
+                "title='" + title + '\'' +
+                ", content='" + content + '\'' +
+                ", imgs='" + imgs + '\'' +
+                '}';
     }
 
     public String getTitle() {
@@ -37,26 +65,5 @@ public class Article {
 
     public void setImgs(String imgs) {
         this.imgs = imgs;
-    }
-
-    public ArticleMemento saveToMemento() {
-        ArticleMemento articleMemento = new ArticleMemento(this.title,this.content,this.imgs);
-        return articleMemento;
-    }
-
-    public void undoFromMemento(ArticleMemento articleMemento) {
-
-        this.title = articleMemento.getTitle();
-        this.content = articleMemento.getContent();
-        this.imgs = articleMemento.getImgs();
-    }
-
-    @Override
-    public String toString() {
-        return "Article{" +
-                "title='" + title + '\'' +
-                ", content='" + content + '\'' +
-                ", imgs='" + imgs + '\'' +
-                '}';
     }
 }
