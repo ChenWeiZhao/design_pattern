@@ -1,7 +1,7 @@
 package com.geely.design.pattern.behavioral.observer;
 
 /**
- * Created by geely
+ * 问题
  */
 public class Question {
     private String userName;

@@ -5,11 +5,11 @@ package com.geely.design.pattern.behavioral.observer;
  */
 public class Test {
     public static void main(String[] args) {
+        //被观察者
         Course course = new Course("Java设计模式精讲");
         Teacher teacher1 = new Teacher("Alpha");
         Teacher teacher2 = new Teacher("Beta");
-
-
+        //添加观察者
         course.addObserver(teacher1);
         course.addObserver(teacher2);
 

@@ -1,7 +1,7 @@
 package com.geely.design.pattern.behavioral.mediator;
 
 /**
- * Created by geely
+ * 同事类
  */
 public class User {
     private String name;

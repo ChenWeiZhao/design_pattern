@@ -3,7 +3,7 @@ package com.geely.design.pattern.behavioral.mediator;
 import java.util.Date;
 
 /**
- * Created by geely
+ * 中介者，学习群
  */
 public class StudyGroup {
 
