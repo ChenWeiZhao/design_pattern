@@ -1,7 +1,7 @@
 package com.geely.design.pattern.behavioral.visitor;
 
 /**
- * Created by geely
+ * 免费课程
  */
 public class FreeCourse extends Course {
 

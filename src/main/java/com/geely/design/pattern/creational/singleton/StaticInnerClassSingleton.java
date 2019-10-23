@@ -1,5 +1,7 @@
 package com.geely.design.pattern.creational.singleton;
 
+import java.util.HashMap;
+
 /**
  * 静态内部类单例模式 非构造线程，看不到构造重排序的情况：
  * 类被初始化：

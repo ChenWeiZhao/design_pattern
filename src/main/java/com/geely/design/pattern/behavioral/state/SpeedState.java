@@ -1,7 +1,7 @@
 package com.geely.design.pattern.behavioral.state;
 
 /**
- * Created by geely
+ * 快进状态
  */
 public class SpeedState extends CourseVideoState {
     @Override

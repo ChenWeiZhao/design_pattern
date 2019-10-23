@@ -1,7 +1,7 @@
 package com.geely.design.pattern.behavioral.visitor;
 
 /**
- * Created by geely
+ * 实战课程
  */
 public class CodingCourse extends Course {
     private int price;

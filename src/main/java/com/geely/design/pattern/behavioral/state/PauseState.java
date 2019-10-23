@@ -1,7 +1,7 @@
 package com.geely.design.pattern.behavioral.state;
 
 /**
- * Created by geely
+ * 暂停状态
  */
 public class PauseState extends CourseVideoState {
 

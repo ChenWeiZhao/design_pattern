@@ -1,9 +1,12 @@
 package com.geely.design.pattern.behavioral.state;
 
 /**
- * Created by geely
+ * 课程视频状态
  */
 public abstract class CourseVideoState {
+    /**
+     * 上下文，为了让子类状态拿到
+     */
     protected CourseVideoContext courseVideoContext;
 
     public void setCourseVideoContext(CourseVideoContext courseVideoContext) {
@@ -11,8 +14,11 @@ public abstract class CourseVideoState {
     }
 
     public abstract void play();
+
     public abstract void speed();
+
     public abstract void pause();
+
     public abstract void stop();
 
 }

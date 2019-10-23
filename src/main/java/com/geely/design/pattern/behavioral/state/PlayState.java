@@ -1,7 +1,7 @@
 package com.geely.design.pattern.behavioral.state;
 
 /**
- * Created by geely
+ * 播放状态
  */
 public class PlayState extends CourseVideoState {
 
