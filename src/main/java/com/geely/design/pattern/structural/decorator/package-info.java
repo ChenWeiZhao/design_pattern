@@ -1,4 +1,3 @@
-package com.geely.design.pattern.structural.decorator;
 /**
  装饰者模式
  一、定义
@@ -24,6 +23,11 @@ package com.geely.design.pattern.structural.decorator;
     代理模式关注于控制对对象的访问，代理模式中的代理类，可以对它的客户隐藏一个对象具体信息
 
  2、装饰者模式和适配器模式
-    都叫包装模式
+    都叫包装模式(wrapper)
+
+ 六、源码
+ {@link java.io.InputStream}
+ {@link java.io.OutputStream}
 
  */
+package com.geely.design.pattern.structural.decorator;

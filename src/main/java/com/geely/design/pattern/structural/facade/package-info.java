@@ -1,4 +1,3 @@
-package com.geely.design.pattern.structural.facade;
 /**
  外观模式
  一、定义
@@ -31,5 +30,7 @@ package com.geely.design.pattern.structural.facade;
         外观类可以通过抽象工厂获取子系统的实例
         这样子系统可以在内部对外观类进行屏蔽
 
-
+ 六、源码
+ {@link javax.servlet.http.HttpServletRequest}
  */
+package com.geely.design.pattern.structural.facade;

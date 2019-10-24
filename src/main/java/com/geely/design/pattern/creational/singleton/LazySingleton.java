@@ -35,6 +35,7 @@ public class LazySingleton {
      * 但同步锁比较消耗资源，有加锁和解锁开销，锁的class范围大
      */
     public synchronized static LazySingleton getInstance() {
+        /* 小心当多个线程同时调用 getInstance() 方法时，可能会产生多个 instance 实例 */
         if (lazySingleton == null) {
             //延迟加载
             lazySingleton = new LazySingleton();

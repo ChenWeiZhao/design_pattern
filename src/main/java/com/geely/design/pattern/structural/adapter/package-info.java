@@ -1,4 +1,3 @@
-package com.geely.design.pattern.structural.adapter;
 /**
  适配器模式
  一、定义
@@ -29,3 +28,4 @@ package com.geely.design.pattern.structural.adapter;
         适配器模式复用原有的接口，使得2个已有的接口协同工作
 
  */
+package com.geely.design.pattern.structural.adapter;

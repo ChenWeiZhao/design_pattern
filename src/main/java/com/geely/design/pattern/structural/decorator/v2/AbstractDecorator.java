@@ -7,6 +7,7 @@ public abstract class AbstractDecorator extends ABattercake {
     private ABattercake aBattercake;
 
     /**
+     * 关键：装饰器中使用了被装饰的对象
      * 用抽象煎饼，来构造抽象装饰者
      */
     public AbstractDecorator(ABattercake aBattercake) {

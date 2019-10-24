@@ -1,4 +1,4 @@
-package com.geely.design.pattern.creational.abstractfactory;
+package com.geely.design.pattern.creational.abstractfactory.course;
 
 /**
  * JAVA课程产品族：生成同一个产品的工厂

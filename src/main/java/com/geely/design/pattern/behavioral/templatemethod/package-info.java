@@ -1,4 +1,3 @@
-package com.geely.design.pattern.behavioral.templatemethod;
 /**
  模板方法模式
  一、定义
@@ -28,9 +27,10 @@ package com.geely.design.pattern.behavioral.templatemethod;
     有大量if-else时可以考虑使用策略模式，不同的if-else都是不同的策略
 
  六、源码
+ {@link java.util.Arrays#sort(int[])}
  {@link java.util.AbstractList#addAll(int, java.util.Collection)}
- {@link javax.servlet.http.HttpServlet#service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)}
- {@link org.apache.ibatis.executor.BaseExecutor#doQuery(org.apache.ibatis.mapping.MappedStatement, java.lang.Object, org.apache.ibatis.session.RowBounds, org.apache.ibatis.session.ResultHandler, org.apache.ibatis.mapping.BoundSql)}
-
+ {@link javax.servlet.http.HttpServlet#service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)}
+ {@link org.apache.ibatis.executor.BaseExecutor}
 
  */
+package com.geely.design.pattern.behavioral.templatemethod;
