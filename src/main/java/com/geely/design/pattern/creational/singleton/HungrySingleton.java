@@ -9,14 +9,15 @@ public class HungrySingleton implements Serializable,Cloneable{
 
     private final static HungrySingleton hungrySingleton;
 
-    /**
+    /*
       类加载时实例就创建好，因此不用判断
      */
     static{
         hungrySingleton = new HungrySingleton();
     }
+
     private HungrySingleton(){
-        //反射防御
+        //防御反射构造
         if(hungrySingleton != null){
             throw new RuntimeException("单例构造器禁止反射调用");
         }
@@ -30,7 +31,7 @@ public class HungrySingleton implements Serializable,Cloneable{
      * obj = desc.isInstantiable() ? desc.newIstance() : null
      * desc.isInstantiable() ：返回true
      * desc.newInstance()：利用反射创建对象
-     * 解决利用反射创建的对象和之前的对象不是同一个
+     * 解决利用序列化和反序列化创建的对象和之前的对象不是同一个
      */
     private Object readResolve(){
         return hungrySingleton;

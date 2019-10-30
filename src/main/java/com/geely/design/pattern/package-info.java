@@ -30,6 +30,7 @@ package com.geely.design.pattern;
         用户对单个对象和组合对象的使用具有一致性的统一接口享元模式 （Flyweight Pattern）：
     7、享元工厂类控制；
         HashMap实现缓冲池重用现有的同类对象，如果未找到匹配的对象，则创建新对象
+
 三、行为型模式
     这些设计模式特别关注对象之间的通信。
     1、责任链模式（Chain of Responsibility Pattern）：

@@ -1,4 +1,3 @@
-package com.geely.design.pattern.structural.proxy;
 /**
  代理模式
  一、定义
@@ -45,5 +44,5 @@ package com.geely.design.pattern.structural.proxy;
  {@link org.apache.ibatis.binding.MapperProxyFactory}
  {@link org.apache.ibatis.binding.MapperProxy}
 
-
  */
+package com.geely.design.pattern.structural.proxy;

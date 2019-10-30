@@ -1,7 +1,7 @@
 package com.geely.design.pattern.creational.singleton;
 
 /**
- * 枚举类防御反射攻击
+ * 枚举类防御反射攻击，也提供了序列化机制
  * 在static类加载中初始化实例完成
  */
 public enum EnumInstance {
