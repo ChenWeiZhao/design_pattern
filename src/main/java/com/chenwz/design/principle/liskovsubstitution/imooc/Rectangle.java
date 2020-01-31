@@ -1,4 +1,4 @@
-package com.chenwz.design.principle.liskovsubstitution;
+package com.chenwz.design.principle.liskovsubstitution.imooc;
 
 /**
  * 里氏替换原则
