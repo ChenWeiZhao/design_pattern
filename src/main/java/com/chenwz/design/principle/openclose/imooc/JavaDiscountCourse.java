@@ -1,4 +1,4 @@
-package com.chenwz.design.principle.openclose;
+package com.chenwz.design.principle.openclose.imooc;
 
 /**
  * 开闭原则
