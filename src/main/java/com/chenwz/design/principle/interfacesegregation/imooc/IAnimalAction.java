@@ -1,4 +1,4 @@
-package com.chenwz.design.principle.interfacesegregation;
+package com.chenwz.design.principle.interfacesegregation.imooc;
 
 /**
  * 接口过多，细化接口

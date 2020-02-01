@@ -1,4 +1,4 @@
-package com.chenwz.design.principle.dependenceinversion;
+package com.chenwz.design.principle.dependenceinversion.imooc;
 
 /**
  * Created by geely

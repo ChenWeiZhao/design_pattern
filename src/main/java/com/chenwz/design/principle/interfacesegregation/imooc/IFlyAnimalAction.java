@@ -1,4 +1,4 @@
-package com.chenwz.design.principle.interfacesegregation;
+package com.chenwz.design.principle.interfacesegregation.imooc;
 
 /**
  * Created by geely
