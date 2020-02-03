@@ -1,4 +1,4 @@
-package com.chenwz.design.principle.demeter;
+package com.chenwz.design.principle.demeter.imooc;
 
 import java.util.ArrayList;
 import java.util.List;
