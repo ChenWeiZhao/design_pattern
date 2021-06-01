@@ -16,7 +16,7 @@ public class Application {
     static ConfigSource configSource = new ZookeeperConfigSource();
     public static final RedisConfig redisConfig = new RedisConfig(configSource);
     public static final KakfaConfig KAKFA_CONFIG = new KakfaConfig(configSource);
-    public static final MySqlConfig mysqlConfig = new MySqlConfig(configSource);
+    public static final MysqlConfig mysqlConfig = new MysqlConfig(configSource);
 
     public static void main(String[] args) {
         ScheduledUpdater redisConfigUpdater = new ScheduledUpdater(redisConfig, 300, 300);

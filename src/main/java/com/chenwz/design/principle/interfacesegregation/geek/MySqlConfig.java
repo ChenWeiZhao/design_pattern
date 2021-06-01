@@ -14,8 +14,8 @@ package com.chenwz.design.principle.interfacesegregation.geek;
 
 import java.util.Map;
 
-public class MySqlConfig implements Viewer {
-    public MySqlConfig(ConfigSource configSource){
+public class MysqlConfig implements Viewer {
+    public MysqlConfig(ConfigSource configSource){
 
     }
 

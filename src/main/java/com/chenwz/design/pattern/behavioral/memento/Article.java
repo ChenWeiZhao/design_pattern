@@ -28,7 +28,6 @@ public class Article {
      * @param articleMemento 备忘录
      */
     public void undoFromMemento(ArticleMemento articleMemento) {
-
         this.title = articleMemento.getTitle();
         this.content = articleMemento.getContent();
         this.imgs = articleMemento.getImgs();

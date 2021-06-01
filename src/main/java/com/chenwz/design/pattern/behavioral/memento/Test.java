@@ -31,8 +31,6 @@ public class Test {
         articleMemento = article.saveToMemento();
         articleMementoManager.addMemento(articleMemento);
 
-
-
         article.setTitle("如影随行的设计模式C");
         article.setContent("手记内容C");
         article.setImgs("手记图片C");
